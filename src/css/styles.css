@@ -8,6 +8,8 @@
 @import url('./vite-promo.css');
 @import url('./header.css');
 
+@import 'accordion-js/dist/accordion.min.css';
+
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -22,4 +24,126 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+
+
+/* .section-name {
+  font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+    color: rgba(250, 250, 250, 0.4);
+    padding: 0px 32px;
+    width: 343px;
+      height: 640px;
+      background: #1c1d20;
+      margin-bottom: 32px;
+}
+
+.accord-container {
+display: flex;
+flex-direction: row;
+
+}
+
+.accord-container .ac .ac-trigger::after {
+  content: ' ';
+}
+
+.accord-container .ac .ac-trigger>.send-icon {
+  display: block;
+}
+
+.accord-container.ac .ac-trigger>.soc-icon {
+  display: none;
+}
+
+.accord-container.ac.is-active>.ac-header .ac-trigger::after {
+  content: '';
+}
+
+.ac.is-active>.ac-header .ac-trigger>.soc-icon {
+  display: block;
+}
+
+.ac.is-active>.ac-header .ac-trigger>.send-icon{
+  display: none;
+} */
+
+
+/* yyy */
+.faq-section-name {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: rgba(250, 250, 250, 0.4);
+  /* padding: 0px 32px; */
+
+  background: #1c1d20;
+  margin-bottom: 32px;
+}
+
+.faq-accord-container {
+  background-color: #1c1d20;
+}
+
+.faq-accord-container.ac {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+.ac-trigger {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: #1c1d20;
+  border: none;
+  padding: 0;
+  gap: 24px;
+  width: 100%;
+}
+
+.faq-accord-container .ac .ac-trigger::after {
+  content: '';
+}
+
+.faq-accord-container.ac.is-active>.ac-header .ac-trigger::after {
+  content: '';
+}
+
+.faq-item {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+  background-color: #1c1d20;
+  text-align: left;
+  /* margin-right: 24px; */
+  /* background: #242527; */
+}
+
+.faq-arrow {
+  border: 1px solid rgba(250, 250, 250, 0.2);
+  border-radius: 100px;
+  padding: 7px;
+  width: 34px;
+  height: 34px;
+}
+
+.arrow-up {
+  /* fill: #fafafa; */
+  stroke: #FAFAFA;
+}
+
+.fac-ac-text {
+  margin-top: 16px;
+
 }
